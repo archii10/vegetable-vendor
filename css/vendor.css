@@ -1,0 +1,52 @@
+/* Style the dropdown button */
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4070f4;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Style the checkboxes */
+.dropdown-content label {
+  display: block;
+  margin: 5px 10px;
+}
+
+/* Style the checked checkboxes */
+.dropdown-content input[type="checkbox"]:checked + label {
+  color: #4CAF50;
+}
+
+.container {
+    background: #fff;
+    padding: 30px 65px;
+    border-radius: 12px;
+    row-gap: 20px;
+    justify-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+ 
