@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(102, 225, 153, 0.6)),url(../images/customer1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: 50px;
+  
+}
+.card{
+    width:350px;
+    padding:10px;
+    border:none;
+    border-radius:20px;
+}
+
+
+
+
+:where(.container, header,.profile-button) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.container {
+        background: linear-gradient(rgba(0,0,0,0.6),rgba(102, 225, 153, 0.741));
+        width: 700px;
+        height: 800px;
+        
+        border-radius: 20px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        flex-direction: column;
+        background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+.container header {
+  height: 65px;
+  width: 65px;
+  background: #4070f4;
+  color: #fff;
+  font-size: 2.5rem;
+  border-radius: 50%;
+}
+.container h4 {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: 500;
+}
+.container h1{
+  font-size: 50px;
+  color: #f7f6f6c7;
+  font-weight: 1000;
+  
+}
+.customer {
+  width: 600px;
+  background-color: transparent;
+  margin: 0 auto;
+  padding:5px;
+  border: 2px solid #b8b7b74a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  color:#ffffffcf ;
+  font-weight: 100%;
+}
+
+.customer label {
+  display: block;
+  margin-top: 10px;
+  
+}
+
+.customer input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  color: #fff;
+  
+  border: 2px solid rgba(235, 233, 233, 0.519);
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color:#eaeaea4b;
+  backdrop-filter: blur(50px);
+  
+}
+
+.customer button[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size:15px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 5px solid rgba(235, 233, 233, 0.519);
+  color:#fff;
+  background-color:transparent;
+  border-radius:30px;
+  transition:all 0.5s;
+  backdrop-filter: blur(10px);
+ 
+}
+
+.customer button[type="submit"]:hover {
+  background-color: #02875b98;
+}
