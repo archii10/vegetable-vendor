@@ -39,7 +39,7 @@ body {
 .container {
         background: linear-gradient(rgba(0,0,0,0.6),rgba(102, 225, 153, 0.741));
         width: 700px;
-        height: 800px;
+        height: 850px;
         
         border-radius: 20px;
         backdrop-filter: blur(10px);
@@ -92,7 +92,7 @@ a{
   
 }
 
-.customer input[type="text"] {
+.customer input[type="text"],input[type="tel"] {
   width: 90%;
   padding: 10px;
   margin-top: 5px;
